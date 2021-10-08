@@ -1,0 +1,28 @@
+.season-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.summer{
+    background-color: rgb(223, 228, 157);
+}
+.winter{
+    background-color: rgb(157, 180, 228);
+}
+.season-wrapper.winter i {
+    color: blue;
+}
+.season-wrapper.summer i {
+    color: rgb(255, 208, 0);
+}
+.icon-left{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+.icon-right{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
